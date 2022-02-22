@@ -1,0 +1,105 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity MIPS_CPU is
+	port(
+		clk : in std_logic;
+		buttons  : in std_logic_vector(1 downto 0);
+		switches : in std_logic_vector(9 downto 0);
+		LEDs	 : out std_logic_vector(31 downto 0));
+end MIPS_CPU;
+
+architecture MIPS of MIPS_CPU is
+	-- PC DATA PORT
+	signal PC_in 				: std_logic_vector(31 downto 0);
+	signal PC_mux_out 			: std_logic_vector(31 downto 0);
+	-- CONTROL SIGNALS (ENABLES)
+	signal PC_en				:  std_logic; -- PC
+	signal PCWriteCond			:  std_logic; -- PC
+	signal PCWrite				:  std_logic; -- PC
+	signal MemRead, MemWrite 	:  std_logic; -- MEMORY
+	signal IRWrite 				:  std_logic; -- IR
+	signal RegWrite				:  std_logic; -- REGFILE
+	signal ALUOp				:  std_logic_vector(5 downto 0); -- ALU Controller
+	signal IsSigned				:  std_logic; -- SignExtended component after IR
+	signal JumpAndLink			:  std_logic; -- REGFILE
+	-- CONTROL SIGNALS(MUX SELECTS)
+	signal RegDst 				:  std_logic_vector(0 downto 0); -- MUX between IR/REGFILE
+	signal ALUSrcA				:  std_logic_vector(0 downto 0); -- MUX between RegA/ALU
+	signal ALUSrcB				:  std_logic_vector(1 downto 0); -- MUX between RegB/ALU
+	signal PCSource				:  std_logic_vector(1 downto 0); -- MUX between IR/PC
+	signal MemToReg 			:  std_logic_vector(0 downto 0); -- MUX between MEMORY/REGFILE
+	signal IorD 				:  std_logic_vector(0 downto 0); -- MUX between PC/MEMORY
+	-- OUTPUTS
+	signal IR_to_Controller		:  std_logic_vector(31 downto 26);
+	signal Branch_taken			:  std_logic;
+	signal IR_15to0				:  std_logic_vector(15 downto 0);
+	
+begin 
+	CONTROLLER: entity work.cpu_control
+		port map (
+			-- UNIVERSAL SIGNALS
+			clk		 			=> clk,
+			rst 				=> buttons(1),
+			-- CONTROL SIGNALS (ENABLES)
+			PCWrite				=> PCWrite,
+			PCWriteCond			=> PCWriteCond,
+			MemRead			 	=> MemRead,
+			MemWrite			=> MemWrite,
+			IRWrite 			=> IRWrite,
+			RegWrite			=> RegWrite,
+			ALUOp				=> ALUOp,
+			IsSigned			=> IsSigned,
+			JumpAndLink			=> JumpAndLink,
+			-- CONTROL SIGNALS(MUX SELECTS)
+			RegDst 				=> RegDst,
+			ALUSrcA				=> ALUSrcA,
+			ALUSrcB				=> ALUSrcB,
+			PCSource			=> PCSource,
+			MemToReg 			=> MemToReg,
+			IorD 				=> IorD,
+			-- INPUT
+			IR_to_C	=> IR_to_Controller,
+			IR_15_downto_0 => IR_15to0
+		
+		
+		
+		);
+	DATAPATH : entity work.datapath
+		port map (
+			-- UNIVERSAL SIGNALS
+			clk		 			=> clk,
+			rst 				=> buttons(1),
+			-- CONTROL SIGNALS (ENABLES)
+			PC_en				=> PC_en,
+			MemRead			 	=> MemRead,
+			MemWrite			=> MemWrite,
+			IRWrite 			=> IRWrite,
+			RegWrite			=> RegWrite,
+			ALUOp				=> ALUOp,
+			IsSigned			=> IsSigned,
+			JumpAndLink			=> JumpAndLink,
+			-- CONTROL SIGNALS(MUX SELECTS)
+			RegDst 				=> RegDst,
+			ALUSrcA				=> ALUSrcA,
+			ALUSrcB				=> ALUSrcB,
+			PCSource			=> PCSource,
+			MemToReg 			=> MemToReg,
+			IorD 				=> IorD,
+			-- OUTPUTS
+			IR_to_C	=> IR_to_Controller,
+			Branch_taken 		=> Branch_taken,
+			IR_15_downto_0			=> IR_15to0,
+			-- I/O
+			button  			=> buttons,
+			switch 			=> switches,
+			LED	 			=> LEDs
+		
+		);
+	
+	PC_en <= (PCWriteCond and Branch_taken) or PCWrite;
+		
+
+
+
+end MIPS;

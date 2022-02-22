@@ -1,0 +1,325 @@
+vsim -gui work.cpu_tb(tb)
+# vsim -gui work.cpu_tb(tb) 
+# Start time: 13:05:17 on Apr 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu_tb(tb)
+# Loading ieee.math_real(body)
+# Loading work.cpu(struc)
+# Loading work.gen_mux_package(body)
+# Loading work.datapath(struc)
+# Loading work.reg(bhv)
+# Loading work.mux(bhv)
+# Loading altera_mf.altera_mf_components
+# Loading work.memory(struc)
+# Loading work.memory_address_logic(bhv)
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.registers(bhv)
+# Loading work.alu(bhv)
+# Loading work.alu_controller(bhv)
+# Loading work.sign_extend(bhv)
+# Loading work.cpu_control(two_proc)
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/RF/reg_array
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 19046  Hostname: DESKTOP-0J8DNI3  ProcessID: 17564
+#           Attempting to use alternate WLF file "./wlft2535at".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2535at
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/HI_reg/output
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/LO_reg/output
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_to_PC
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_B
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_A
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/M
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/Reg_in_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MEM/readData_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/PC_MUX
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 13:07:12 on Apr 20,2021, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 13
+# Compile of alu.vhd was successful with warnings.
+# Compile of alu_tb.vhd was successful with warnings.
+# Compile of gen_mux.vhd was successful.
+# Compile of gen_mux_package.vhd was successful.
+# Compile of gen_mux_tb.vhd was successful.
+# Compile of Sign_Extend.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of memory_address_logic.vhd was successful.
+# Compile of Sign_Extend_tb.vhd was successful.
+# Compile of memory.vhd was successful.
+# Compile of memory_tb.vhd was successful.
+# Compile of alu_contoller.vhd was successful.
+# Compile of alu_controller_tb.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of registers.vhd was successful.
+# Compile of cpu_control.vhd was successful.
+# Compile of cpu_tb.vhd was successful.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.cpu_tb
+# vsim -gui work.cpu_tb 
+# Start time: 13:07:53 on Apr 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu_tb(tb)
+# Loading ieee.math_real(body)
+# Loading work.cpu(struc)
+# Loading work.gen_mux_package(body)
+# Loading work.datapath(struc)
+# Loading work.reg(bhv)
+# Loading work.mux(bhv)
+# Loading altera_mf.altera_mf_components
+# Loading work.memory(struc)
+# Loading work.memory_address_logic(bhv)
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.registers(bhv)
+# Loading work.alu(bhv)
+# Loading work.alu_controller(bhv)
+# Loading work.sign_extend(bhv)
+# Loading work.cpu_control(two_proc)
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/RF/reg_array
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 19046  Hostname: DESKTOP-0J8DNI3  ProcessID: 17564
+#           Attempting to use alternate WLF file "./wlftzig6dm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzig6dm
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_to_PC
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_B
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_A
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/M
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/Reg_in_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MEM/readData_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/PC_MUX
+# Break key hit
+# Break in Process line__21 at C:/Users/19046/Documents/modelsimLabs/final/reg.vhd line 21
+quit -sim
+# End time: 13:09:29 on Apr 20,2021, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 13
+# Compile of alu.vhd was successful with warnings.
+# Compile of alu_tb.vhd was successful with warnings.
+# Compile of gen_mux.vhd was successful.
+# Compile of gen_mux_package.vhd was successful.
+# Compile of gen_mux_tb.vhd was successful.
+# Compile of Sign_Extend.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of memory_address_logic.vhd was successful.
+# Compile of Sign_Extend_tb.vhd was successful.
+# Compile of memory.vhd was successful.
+# Compile of memory_tb.vhd was successful.
+# Compile of alu_contoller.vhd was successful.
+# Compile of alu_controller_tb.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of registers.vhd was successful.
+# Compile of cpu_control.vhd was successful.
+# Compile of cpu_tb.vhd was successful.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.cpu_tb
+# vsim -gui work.cpu_tb 
+# Start time: 13:09:48 on Apr 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu_tb(tb)
+# Loading ieee.math_real(body)
+# Loading work.cpu(struc)
+# Loading work.gen_mux_package(body)
+# Loading work.datapath(struc)
+# Loading work.reg(bhv)
+# Loading work.mux(bhv)
+# Loading altera_mf.altera_mf_components
+# Loading work.memory(struc)
+# Loading work.memory_address_logic(bhv)
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.registers(bhv)
+# Loading work.alu(bhv)
+# Loading work.alu_controller(bhv)
+# Loading work.sign_extend(bhv)
+# Loading work.cpu_control(two_proc)
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/RF/reg_array
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 19046  Hostname: DESKTOP-0J8DNI3  ProcessID: 17564
+#           Attempting to use alternate WLF file "./wlftsjh1cj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsjh1cj
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/HI_reg/output
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/LO_reg/output
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_to_PC
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_B
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_A
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/M
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/Reg_in_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MEM/readData_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/PC_MUX
+# Break key hit
+# Break in Process line__25 at C:/Users/19046/Documents/modelsimLabs/final/registers.vhd line 25
+quit -sim
+# End time: 13:12:24 on Apr 20,2021, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 13
+# Compile of alu.vhd was successful with warnings.
+# Compile of alu_tb.vhd was successful with warnings.
+# Compile of gen_mux.vhd was successful.
+# Compile of gen_mux_package.vhd was successful.
+# Compile of gen_mux_tb.vhd was successful.
+# Compile of Sign_Extend.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of memory_address_logic.vhd was successful.
+# Compile of Sign_Extend_tb.vhd was successful.
+# Compile of memory.vhd was successful.
+# Compile of memory_tb.vhd was successful.
+# Compile of alu_contoller.vhd was successful.
+# Compile of alu_controller_tb.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of registers.vhd was successful.
+# Compile of cpu_control.vhd was successful.
+# Compile of cpu_tb.vhd was successful.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.cpu_tb
+# vsim -gui work.cpu_tb 
+# Start time: 13:12:48 on Apr 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu_tb(tb)
+# Loading ieee.math_real(body)
+# Loading work.cpu(struc)
+# Loading work.gen_mux_package(body)
+# Loading work.datapath(struc)
+# Loading work.reg(bhv)
+# Loading work.mux(bhv)
+# Loading altera_mf.altera_mf_components
+# Loading work.memory(struc)
+# Loading work.memory_address_logic(bhv)
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.registers(bhv)
+# Loading work.alu(bhv)
+# Loading work.alu_controller(bhv)
+# Loading work.sign_extend(bhv)
+# Loading work.cpu_control(two_proc)
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/RF/reg_array
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 19046  Hostname: DESKTOP-0J8DNI3  ProcessID: 17564
+#           Attempting to use alternate WLF file "./wlft3bsm4m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3bsm4m
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/DATAPATH/PC/output
+add wave -position insertpoint  \
+sim:/cpu_tb/CPU/LEDs
+add wave -position insertpoint  \
+sim:/cpu_tb/outport
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_to_PC
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/ALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_B
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MUX_A
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/M
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/Reg_in_MUX
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/MEM/readData_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/CPU/DATAPATH/PC_MUX
+# Break key hit
+# Break in Process line__21 at C:/Users/19046/Documents/modelsimLabs/final/reg.vhd line 21
+# End time: 13:20:56 on Apr 20,2021, Elapsed time: 0:08:08
+# Errors: 0, Warnings: 13

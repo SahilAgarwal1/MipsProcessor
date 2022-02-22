@@ -1,0 +1,202 @@
+C:/Users/19046/Documents/modelsimLabs/final/cpu_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/cpu_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpu_tb
+-- Compiling architecture tb of cpu_tb
+-- Loading entity cpu
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Sign_Extend_tb
+-- Compiling architecture tb of Sign_Extend_tb
+-- Loading entity Sign_Extend
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/memory_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/memory_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_tb
+-- Compiling architecture tb of memory_tb
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/gen_mux_package.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/gen_mux_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package gen_mux_package
+-- Compiling package body gen_mux_package
+-- Loading package gen_mux_package
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture BHV of reg
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/ram.vhd.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\19046\Documents\modelsimLabs\final\ram.vhd.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram
+-- Compiling architecture SYN of ram
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cpu
+-- Compiling architecture struc of cpu
+-- Loading package NUMERIC_STD
+-- Loading entity datapath
+-- Loading package MATH_REAL
+-- Loading entity cpu_control
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/registers.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/registers.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers
+-- Compiling architecture bhv of registers
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Sign_Extend
+-- Compiling architecture BHV of Sign_Extend
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/alu_contoller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/alu_contoller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_controller
+-- Compiling architecture bhv of alu_controller
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/memory_address_logic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/memory_address_logic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_address_logic
+-- Compiling architecture bhv of memory_address_logic
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/gen_mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/gen_mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package gen_mux_package
+-- Compiling entity mux
+-- Compiling architecture bhv of mux
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datapath
+-- Compiling architecture struc of datapath
+-- Loading entity reg
+-- Loading package MATH_REAL
+-- Loading package gen_mux_package
+-- Loading entity mux
+-- Loading entity memory
+-- Loading entity registers
+-- Loading entity alu
+-- Loading entity alu_controller
+-- Loading entity Sign_Extend
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_tb
+-- Compiling architecture TB of alu_tb
+** Warning: C:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd(102): (vcom-135) Based literal has negative value.
+** Warning: C:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd(112): (vcom-135) Based literal has negative value.
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/cpu_control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/cpu_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity cpu_control
+-- Compiling architecture two_proc of cpu_control
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/gen_mux_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/gen_mux_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity gen_mux_tb
+-- Compiling architecture tb of gen_mux_tb
+-- Loading package MATH_REAL
+-- Loading package gen_mux_package
+-- Loading entity mux
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture struc of memory
+-- Loading entity memory_address_logic
+-- Loading entity reg
+-- Loading package altera_mf_components
+-- Loading entity ram
+-- Loading package MATH_REAL
+-- Loading package gen_mux_package
+-- Loading entity mux
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/alu_controller_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/alu_controller_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_controller_tb
+-- Compiling architecture TB of alu_controller_tb
+
+} {} {}} C:/Users/19046/Documents/modelsimLabs/final/alu.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/19046/Documents/modelsimLabs/final/alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture bhv of alu
+** Warning: C:/Users/19046/Documents/modelsimLabs/final/alu.vhd(87): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+** Warning: C:/Users/19046/Documents/modelsimLabs/final/alu.vhd(93): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+
+} {} {}}

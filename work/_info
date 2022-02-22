@@ -1,0 +1,962 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/19046/Documents/modelsimLabs/week1
+Ealu
+Z0 w1618522727
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/19046/Documents/modelsimLabs/final
+Z5 8C:/Users/19046/Documents/modelsimLabs/final/alu.vhd
+Z6 FC:/Users/19046/Documents/modelsimLabs/final/alu.vhd
+l0
+L5
+VgR@FQPa8XCmGc06R<Z9LY3
+!s100 hWWY@gU@Bz9mb`V<1>9:43
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1618938755
+!i10b 1
+Z9 !s108 1618938755.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/alu.vhd|
+Z11 !s107 C:/Users/19046/Documents/modelsimLabs/final/alu.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R1
+R2
+R3
+Z14 DEx4 work 3 alu 0 22 gR@FQPa8XCmGc06R<Z9LY3
+l51
+L20
+VI8Q5Z6E@3N544JgJeRfGR2
+!s100 MHTMCSQi7bJgcZSZd^;kL1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu_controller
+Z15 w1618617820
+R1
+R2
+R3
+R4
+Z16 8C:/Users/19046/Documents/modelsimLabs/final/alu_contoller.vhd
+Z17 FC:/Users/19046/Documents/modelsimLabs/final/alu_contoller.vhd
+l0
+L5
+V5f_CA?Ho7mX4AN[<Fc<1m2
+!s100 7EKcKLB3fD]P_40EcV8F<3
+R7
+32
+Z18 !s110 1618938757
+!i10b 1
+Z19 !s108 1618938757.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/alu_contoller.vhd|
+Z21 !s107 C:/Users/19046/Documents/modelsimLabs/final/alu_contoller.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+Z22 DEx4 work 14 alu_controller 0 22 5f_CA?Ho7mX4AN[<Fc<1m2
+l60
+L17
+VWNh8fo9=;SHBW^bFJCgkH1
+!s100 mNQ:dA[:]_BNCZdhRUZQV3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Ealu_controller_tb
+Z23 w1618614422
+R1
+R2
+R3
+R4
+Z24 8C:/Users/19046/Documents/modelsimLabs/final/alu_controller_tb.vhd
+Z25 FC:/Users/19046/Documents/modelsimLabs/final/alu_controller_tb.vhd
+l0
+L5
+Vl?eaJ2RdlXaCmWGQ;W?>k3
+!s100 kj@>1ZF5>oU6Sg4V3Va@[3
+R7
+32
+R18
+!i10b 1
+R19
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/alu_controller_tb.vhd|
+Z27 !s107 C:/Users/19046/Documents/modelsimLabs/final/alu_controller_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+DEx4 work 17 alu_controller_tb 0 22 l?eaJ2RdlXaCmWGQ;W?>k3
+l98
+L8
+V7Gc;Ol8RD8_debmjo0lYH0
+!s100 c5FIdSX=JZWWmWfYgK_H>1
+R7
+32
+R18
+!i10b 1
+R19
+R26
+R27
+!i113 1
+R12
+R13
+Ealu_ns_tb
+w1618379143
+R1
+R2
+R3
+R4
+Z28 8C:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd
+Z29 FC:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd
+l0
+L5
+VUd76M:cb02BO[cj>B:G1A0
+!s100 ]eR?dmNgGOXmC7FTNBELj0
+R7
+32
+!s110 1618379146
+!i10b 1
+!s108 1618379146.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd|
+Z31 !s107 C:/Users/19046/Documents/modelsimLabs/final/alu_tb.vhd|
+!i113 1
+R12
+R13
+Ealu_tb
+Z32 w1618517936
+R1
+R2
+R3
+R4
+R28
+R29
+l0
+L5
+VncaQOdMWQ^kcITg6^Im^<0
+!s100 HghMJNND=5E>FPh]e<aLR0
+R7
+32
+Z33 !s110 1618938756
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+DEx4 work 6 alu_tb 0 22 ncaQOdMWQ^kcITg6^Im^<0
+l59
+L8
+Vno?IQ[Z77WJFGhRFZ@35P2
+!s100 ENKNG]XgMoOHeIRoXT;TL1
+R7
+32
+R33
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
+Ecpu
+Z34 w1618626991
+R2
+R3
+R4
+Z35 8C:/Users/19046/Documents/modelsimLabs/final/cpu.vhd
+Z36 FC:/Users/19046/Documents/modelsimLabs/final/cpu.vhd
+l0
+L4
+VFjJLhN11cAgn8F3K9FT]c1
+!s100 D]KTMd8RnXA]FDaE];d_W0
+R7
+32
+Z37 !s110 1618938758
+!i10b 1
+Z38 !s108 1618938758.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/cpu.vhd|
+Z40 !s107 C:/Users/19046/Documents/modelsimLabs/final/cpu.vhd|
+!i113 1
+R12
+R13
+Astruc
+Z41 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z42 DEx4 work 11 cpu_control 0 22 7nOQn]DfLCO`;DMB@1YX20
+R1
+Z43 DEx4 work 8 datapath 0 22 CmT[=6P2Vbfm?_2f;lBJ61
+R2
+R3
+Z44 DEx4 work 3 cpu 0 22 FjJLhN11cAgn8F3K9FT]c1
+l27
+L12
+VIHj5kBWj]bldc??VU0?1f3
+!s100 oEoUTF@Wm0aD=N1AKWe;>1
+R7
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R12
+R13
+Ecpu_control
+Z45 w1618626110
+R41
+R1
+R2
+R3
+R4
+Z46 8C:/Users/19046/Documents/modelsimLabs/final/cpu_control.vhd
+Z47 FC:/Users/19046/Documents/modelsimLabs/final/cpu_control.vhd
+l0
+L6
+V7nOQn]DfLCO`;DMB@1YX20
+!s100 _fFTBWiMID[T6KnJM9cRD2
+R7
+32
+R37
+!i10b 1
+R19
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/cpu_control.vhd|
+Z49 !s107 C:/Users/19046/Documents/modelsimLabs/final/cpu_control.vhd|
+!i113 1
+R12
+R13
+Atwo_proc
+R41
+R1
+R2
+R3
+R42
+l76
+L28
+VJ]0IYd^Hl9:`93mWOQR]R2
+!s100 ;S`z4hzCSmFWeS^V4DYmj0
+R7
+32
+R37
+!i10b 1
+R19
+R48
+R49
+!i113 1
+R12
+R13
+Ecpu_tb
+Z50 w1618627124
+R1
+R2
+R3
+R4
+Z51 8C:/Users/19046/Documents/modelsimLabs/final/cpu_tb.vhd
+Z52 FC:/Users/19046/Documents/modelsimLabs/final/cpu_tb.vhd
+l0
+L5
+Vgmg`I?aMdS@RPdP[7jH9N0
+!s100 ^RDZRzN_cme?[;=@6]@^S0
+R7
+32
+R37
+!i10b 1
+R38
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/cpu_tb.vhd|
+Z54 !s107 C:/Users/19046/Documents/modelsimLabs/final/cpu_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R44
+R1
+R2
+R3
+DEx4 work 6 cpu_tb 0 22 gmg`I?aMdS@RPdP[7jH9N0
+l16
+L8
+VVPfjO^YWdd>?:6d1@Q0L82
+!s100 FLD<@I8oImgEKjgo=^[FH3
+R7
+32
+R37
+!i10b 1
+R38
+R53
+R54
+!i113 1
+R12
+R13
+Edatapath
+Z55 w1618626896
+R1
+R2
+R3
+R4
+Z56 8C:/Users/19046/Documents/modelsimLabs/final/datapath.vhd
+Z57 FC:/Users/19046/Documents/modelsimLabs/final/datapath.vhd
+l0
+L5
+VCmT[=6P2Vbfm?_2f;lBJ61
+!s100 MYHEgLBNI=aChSjZFm][d2
+R7
+32
+R18
+!i10b 1
+R19
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/datapath.vhd|
+Z59 !s107 C:/Users/19046/Documents/modelsimLabs/final/datapath.vhd|
+!i113 1
+R12
+R13
+Astruc
+Z60 DEx4 work 11 sign_extend 0 22 K1oUk?>D>^Am5<^2VhQI70
+R22
+R14
+Z61 DEx4 work 9 registers 0 22 lo13<m:bRe?k@`0g274k>2
+Z62 DEx4 work 6 memory 0 22 Kin;GNb6B2[=;kYc8;>1i0
+Z63 DPx4 work 15 gen_mux_package 0 22 hmW83Ck<jn<FHIF9HIeMD3
+R41
+Z64 DEx4 work 3 mux 0 22 jPU<F4KfIjcRL:KzDjC8V3
+Z65 DEx4 work 3 reg 0 22 AWZnlHO`Yo?f0=T4H0WH@0
+R1
+R2
+R3
+R43
+l61
+L32
+VdjM>2b`iLFDDQamXJi1CE1
+!s100 l^;GGl`6H76B?3oS<`GTE3
+R7
+32
+R18
+!i10b 1
+R19
+R58
+R59
+!i113 1
+R12
+R13
+Pgen_mux_package
+R2
+R3
+Z66 w1618388260
+R4
+Z67 8C:/Users/19046/Documents/modelsimLabs/final/gen_mux_package.vhd
+Z68 FC:/Users/19046/Documents/modelsimLabs/final/gen_mux_package.vhd
+l0
+L4
+VhmW83Ck<jn<FHIF9HIeMD3
+!s100 WI>be=8<2kbO?z4DePHJl0
+R7
+32
+R33
+!i10b 1
+Z69 !s108 1618938756.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/gen_mux_package.vhd|
+Z71 !s107 C:/Users/19046/Documents/modelsimLabs/final/gen_mux_package.vhd|
+!i113 1
+R12
+R13
+Bbody
+R63
+R2
+R3
+l0
+L8
+V1`g9:R1cVW?CP=m418i=T2
+!s100 1:YBnhC^Tb<UFBPWb8^Tn3
+R7
+32
+R33
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R12
+R13
+Egen_mux_tb
+Z72 w1618388650
+R1
+R2
+R3
+R4
+Z73 8C:/Users/19046/Documents/modelsimLabs/final/gen_mux_tb.vhd
+Z74 FC:/Users/19046/Documents/modelsimLabs/final/gen_mux_tb.vhd
+l0
+L5
+VfoMO^48eeQz672liz0n0S1
+!s100 XYL8dZK:?d;g?[ldl3OYL2
+R7
+32
+R33
+!i10b 1
+R69
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/gen_mux_tb.vhd|
+Z76 !s107 C:/Users/19046/Documents/modelsimLabs/final/gen_mux_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R63
+R41
+R64
+R1
+R2
+R3
+DEx4 work 10 gen_mux_tb 0 22 foMO^48eeQz672liz0n0S1
+l11
+L8
+VNhERWaZ7[W>X0]TRb>S9C0
+!s100 bmbF77eFWn=0j=iIINVgi3
+R7
+32
+R33
+!i10b 1
+R69
+R75
+R76
+!i113 1
+R12
+R13
+Ememory
+Z77 w1618624686
+R1
+R2
+R3
+R4
+Z78 8C:/Users/19046/Documents/modelsimLabs/final/memory.vhd
+Z79 FC:/Users/19046/Documents/modelsimLabs/final/memory.vhd
+l0
+L5
+VKin;GNb6B2[=;kYc8;>1i0
+!s100 bcWOUlmo=h0oUXUI[fK2V2
+R7
+32
+R18
+!i10b 1
+R19
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/memory.vhd|
+Z81 !s107 C:/Users/19046/Documents/modelsimLabs/final/memory.vhd|
+!i113 1
+R12
+R13
+Astruc
+R63
+R41
+R64
+Z82 DPx9 altera_mf 20 altera_mf_components 0 22 @6M>I48X_jBQDo@?W=TN93
+Z83 DEx4 work 3 ram 0 22 ]^Q6W1BJdcPX^EXBB3OHj3
+R65
+Z84 DEx4 work 20 memory_address_logic 0 22 =C]CXogiNo5CRMHm`DUGn3
+R1
+R2
+R3
+R62
+l27
+L19
+VLSo@SNfOgROY=zd3f`hl[3
+!s100 `;T9^S>iNlGd_OVKYYUmG2
+R7
+32
+R18
+!i10b 1
+R19
+R80
+R81
+!i113 1
+R12
+R13
+Ememory_address_logic
+Z85 w1618448617
+R1
+R2
+R3
+R4
+Z86 8C:/Users/19046/Documents/modelsimLabs/final/memory_address_logic.vhd
+Z87 FC:/Users/19046/Documents/modelsimLabs/final/memory_address_logic.vhd
+l0
+L5
+V=C]CXogiNo5CRMHm`DUGn3
+!s100 XSHF<0X?VnMTPh=_fln;>3
+R7
+32
+R33
+!i10b 1
+R69
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/memory_address_logic.vhd|
+Z89 !s107 C:/Users/19046/Documents/modelsimLabs/final/memory_address_logic.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+R84
+l17
+L16
+V?NCjf2JZhZ0eIaWz5Z1H:1
+!s100 958nm[KBl75OhYJeZ3<T`1
+R7
+32
+R33
+!i10b 1
+R69
+R88
+R89
+!i113 1
+R12
+R13
+Ememory_tb
+Z90 w1618456221
+R1
+R2
+R3
+R4
+Z91 8C:/Users/19046/Documents/modelsimLabs/final/memory_tb.vhd
+Z92 FC:/Users/19046/Documents/modelsimLabs/final/memory_tb.vhd
+l0
+L5
+V_kiS2gc@klE4Vk3RdCF4^2
+!s100 K:h_7;_e46:2;TAj@4dAB3
+R7
+32
+R18
+!i10b 1
+R19
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/memory_tb.vhd|
+Z94 !s107 C:/Users/19046/Documents/modelsimLabs/final/memory_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+DEx4 work 9 memory_tb 0 22 _kiS2gc@klE4Vk3RdCF4^2
+l35
+L8
+V[e_aG<[FzH`zGOlAZel>22
+!s100 0ZO5fg@^VM<dBAf7COdY;1
+R7
+32
+R18
+!i10b 1
+R19
+R93
+R94
+!i113 1
+R12
+R13
+Emips_cpu
+Z95 w1618548172
+R2
+R3
+R4
+R35
+R36
+l0
+L4
+VJ:]??<`8S9[ZznhRNFAo22
+!s100 _j__o:gnTdP]hNLB=H8mO3
+R7
+32
+Z96 !s110 1618625173
+!i10b 1
+Z97 !s108 1618625173.000000
+R39
+R40
+!i113 1
+R12
+R13
+Amips
+DEx4 work 8 datapath 0 22 _C0Db61<[1_<440_^DhQ<2
+R41
+R1
+R42
+R2
+R3
+Z98 DEx4 work 8 mips_cpu 0 22 J:]??<`8S9[ZznhRNFAo22
+l38
+L12
+VjgbflUdTZjIY3`2_Gam^;2
+!s100 AAa1cl0hbGkR[C:;J;iTD3
+R7
+32
+R96
+!i10b 1
+R97
+R39
+R40
+!i113 1
+R12
+R13
+Emips_cpu_tb
+Z99 w1618622970
+R1
+R2
+R3
+R4
+R51
+R52
+l0
+L5
+V5W^Bd_CAB2<GhCL:TbeS53
+!s100 bL[3l3MSCOAONLoVhP1QI2
+R7
+32
+R96
+!i10b 1
+R97
+R53
+R54
+!i113 1
+R12
+R13
+Atb
+R98
+R1
+R2
+R3
+DEx4 work 11 mips_cpu_tb 0 22 5W^Bd_CAB2<GhCL:TbeS53
+l16
+L8
+VEezV<K3Gjo`nA>gcA^5fX0
+!s100 kLFz`h7j5^=2DPQ:l4DUh3
+R7
+32
+R96
+!i10b 1
+R97
+R53
+R54
+!i113 1
+R12
+R13
+Emips_ram
+Z100 w1618622287
+R82
+R2
+R3
+R4
+Z101 8C:/Users/19046/Documents/modelsimLabs/final/MIPS_RAM.vhd
+Z102 FC:/Users/19046/Documents/modelsimLabs/final/MIPS_RAM.vhd
+l0
+L7
+V]Wh>0ifWLBHe?dR@Q;J8T1
+!s100 oLa`<;cTed<8WO82oEkWm3
+R7
+32
+Z103 !s110 1618624525
+!i10b 1
+Z104 !s108 1618624524.000000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/MIPS_RAM.vhd|
+Z106 !s107 C:/Users/19046/Documents/modelsimLabs/final/MIPS_RAM.vhd|
+!i113 1
+R12
+R13
+Asyn
+R82
+R2
+R3
+DEx4 work 8 mips_ram 0 22 ]Wh>0ifWLBHe?dR@Q;J8T1
+l23
+L19
+VIKk>;02U8mI5>eQ_AdUfM0
+!s100 KLa_9P<7G5TCQZhRI;@Ra1
+R7
+32
+R103
+!i10b 1
+R104
+R105
+R106
+!i113 1
+R12
+R13
+Emux
+Z107 w1618457742
+R63
+R1
+R41
+R2
+R3
+R4
+Z108 8C:/Users/19046/Documents/modelsimLabs/final/gen_mux.vhd
+Z109 FC:/Users/19046/Documents/modelsimLabs/final/gen_mux.vhd
+l0
+L7
+VjPU<F4KfIjcRL:KzDjC8V3
+!s100 :ObTi<L4E?S5J?DCTBML;3
+R7
+32
+R33
+!i10b 1
+R69
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/gen_mux.vhd|
+Z111 !s107 C:/Users/19046/Documents/modelsimLabs/final/gen_mux.vhd|
+!i113 1
+R12
+R13
+Abhv
+R63
+R1
+R41
+R2
+R3
+R64
+l19
+L18
+VWJ3i[S4i0Q^R[B=2D3@Oj0
+!s100 lCkb1eYW=S[KLWLe0>VnW0
+R7
+32
+R33
+!i10b 1
+R69
+R110
+R111
+!i113 1
+R12
+R13
+Eram
+Z112 w1618938746
+R82
+R2
+R3
+R4
+Z113 8C:\Users\19046\Documents\modelsimLabs\final\ram.vhd.vhd
+Z114 FC:\Users\19046\Documents\modelsimLabs\final\ram.vhd.vhd
+l0
+L7
+V]^Q6W1BJdcPX^EXBB3OHj3
+!s100 S1cmiQ;Sega95TNZHG4Fo2
+R7
+32
+R37
+!i10b 1
+R38
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\19046\Documents\modelsimLabs\final\ram.vhd.vhd|
+Z116 !s107 C:\Users\19046\Documents\modelsimLabs\final\ram.vhd.vhd|
+!i113 1
+R12
+R13
+Asyn
+R82
+R2
+R3
+R83
+l23
+L19
+V?l1Vm=Q1YeUW1=A=2X_4d1
+!s100 o8`Vb;H52lgOCeEX5_ZSO2
+R7
+32
+R37
+!i10b 1
+R38
+R115
+R116
+!i113 1
+R12
+R13
+Ereg
+Z117 w1618388929
+R2
+R3
+R4
+Z118 8C:/Users/19046/Documents/modelsimLabs/final/reg.vhd
+Z119 FC:/Users/19046/Documents/modelsimLabs/final/reg.vhd
+l0
+L7
+VAWZnlHO`Yo?f0=T4H0WH@0
+!s100 Cmn@Od6`E8MY1a=a@eI@a1
+R7
+32
+R33
+!i10b 1
+R69
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/reg.vhd|
+Z121 !s107 C:/Users/19046/Documents/modelsimLabs/final/reg.vhd|
+!i113 1
+R12
+R13
+Abhv
+R2
+R3
+R65
+l20
+L19
+VQ_F;Gn7aFa0eGf=>Rj?];0
+!s100 [Z9g^Bf1Sko4T3feeIUV81
+R7
+32
+R33
+!i10b 1
+R69
+R120
+R121
+!i113 1
+R12
+R13
+Eregisters
+Z122 w1618624620
+R1
+R2
+R3
+R4
+Z123 8C:/Users/19046/Documents/modelsimLabs/final/registers.vhd
+Z124 FC:/Users/19046/Documents/modelsimLabs/final/registers.vhd
+l0
+L5
+Vlo13<m:bRe?k@`0g274k>2
+!s100 I:gaM=fEdKC@j7`Y00B1@0
+R7
+32
+R18
+!i10b 1
+R19
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/registers.vhd|
+Z126 !s107 C:/Users/19046/Documents/modelsimLabs/final/registers.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+R61
+l24
+L21
+VM@3G2VGhP:G]9Z`0R`P[<3
+!s100 1Y0X[^F2Y=4Yb:ckD9:7E3
+R7
+32
+R18
+!i10b 1
+R19
+R125
+R126
+!i113 1
+R12
+R13
+Esign_extend
+Z127 w1618448764
+R1
+R2
+R3
+R4
+Z128 8C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend.vhd
+Z129 FC:/Users/19046/Documents/modelsimLabs/final/Sign_Extend.vhd
+l0
+L5
+VK1oUk?>D>^Am5<^2VhQI70
+!s100 HmFL>VZO8H[I^7S?K[lG<0
+R7
+32
+R33
+!i10b 1
+R69
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend.vhd|
+Z131 !s107 C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+R60
+l18
+L17
+VhZ2ggjOF8kYmZHQ]9SAlN0
+!s100 TbNX<oWcPefEdA4L:RKJ`0
+R7
+32
+R33
+!i10b 1
+R69
+R130
+R131
+!i113 1
+R12
+R13
+Esign_extend_tb
+Z132 w1618449509
+R1
+R2
+R3
+R4
+Z133 8C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend_tb.vhd
+Z134 FC:/Users/19046/Documents/modelsimLabs/final/Sign_Extend_tb.vhd
+l0
+L5
+V9BB`FXkRP9b0mG]e4?n[03
+!s100 ?X_k:_JBB_8efAfN:6M3:2
+R7
+32
+R18
+!i10b 1
+R69
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend_tb.vhd|
+Z136 !s107 C:/Users/19046/Documents/modelsimLabs/final/Sign_Extend_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R60
+R1
+R2
+R3
+DEx4 work 14 sign_extend_tb 0 22 9BB`FXkRP9b0mG]e4?n[03
+l12
+L8
+V0VfZGGXnUJC]f<WFQ^leI3
+!s100 igg1`@=K1kCWGf6WQXjLS3
+R7
+32
+R18
+!i10b 1
+R69
+R135
+R136
+!i113 1
+R12
+R13
